@@ -1,0 +1,170 @@
+body{
+
+    background-image: url(pozadina.jpg);
+    background-size: 100%;
+    display: flex;
+}
+
+
+.contbk{
+
+    display: flex;
+    margin: 50px;
+    width:1300px;
+    justify-content:space-around;
+}
+
+
+.imeBK{
+    color: yellowgreen;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: "Sunny spells";
+    flex:1 0;
+    align-self: top;
+    position: static;
+    margin: 50px;
+    justify-content: space-evenly;
+}
+
+
+.divZC{
+
+    display:flex;
+    flex-direction: column;
+    align-self: center;
+    margin:5px;
+    justify-content: space-evenly;
+    flex-basis: 50px;
+}
+
+.btnUcitaj{
+
+    font-size: 25px;
+    font-family: "Minecraft ten" ;
+    text-align: center;
+
+    background-color:yellow;
+    color:black;
+
+    border-radius: 20px;
+
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 650px;
+    
+    padding: 12px 28px;
+    width:20%;
+    height: 129px;    
+}
+
+.btnUcitaj:hover{
+    background-color:red ;
+    color:orange ;
+}
+
+.forminjo{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 200px;
+    align-self: flex-end;
+    background-color: orange;
+    border-radius: 10px;
+ 
+}
+
+.formica1{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+    margin: 27px;
+    background-color: rgb(177, 116, 3);
+    border-radius: 20px;
+}
+
+.rezervacija{
+    font-size: 40px;
+    text-align: center;
+    color: green;
+    
+    
+}
+
+.brStola, .ime, .prezime, .brojStola1, .brojLjudi{
+    font-style: italic;
+}
+
+.labele{
+    font-size: 25px;
+    color: rgb(12, 0, 11);
+}
+
+.contS{
+    flex-basis: 20px;
+    margin: 34px;
+    text-align: center;
+    font-size: 40px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    border-radius: 20px;
+    right:150px;
+    resize: none;
+
+    max-width: 200px;
+}
+
+
+.crtaniStolovi{
+    
+    display: flex;
+    
+    height: 893px;
+
+
+    justify-content:space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-height: 200px;
+}
+
+.btns{
+    font-size: 25px;
+    font-family: "Minecraft ten";
+    text-align: center;
+    color:green;
+    display: inline-block;
+    border-radius: 12px;
+    background-color:yellowgreen ;
+    transition-duration: 0.4s;
+    margin:5px;
+    padding: 10px;
+    align-items: flex-end;
+}
+
+.btns:hover{
+    background-color:black ;
+    color:red  ;
+
+}
+
+.btn {
+
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: "Sunny spells";
+
+    background-color:rgb(170, 217, 255) ;
+    border: 1px rgb(0, 0, 0);
+
+}
+
+.btn:hover{
+    background-color:orange ;
+    color:yellow ;
+}
+
+.ime, .brStola, .prezime, .brRezervacija, .brojStola1, .optSok, .optPivo{
+    height:30px;
+    font-size: 25px;
+}
